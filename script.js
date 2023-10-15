@@ -45,7 +45,7 @@ function scrollar(){
     var random =Math.floor(Math.random() * (+max - +min)) + +min; 
     scroll = random * -900;
     $(".scrollar").css("transform", "translateX(" + scroll +"px)");
-    var audio = new Audio('SLAVA_MARLOW_Aarne_-_BIZNES_VUMEN_73214396?raw=true');
+    var audio = new Audio('roulette_spin.mp3?raw=true');
   audio.play();
   }
   
